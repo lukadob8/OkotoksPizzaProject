@@ -1,0 +1,43 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+#footer {
+  display: -ms-grid;
+  display: grid;
+  justify-items: center;
+  row-gap: 5px;
+  margin-top: 20px;
+}
+
+#map-grid {
+  display: -ms-grid;
+  display: grid;
+  justify-items: center;
+}
+
+#map-grid #Header-info {
+  display: -ms-grid;
+  display: grid;
+  justify-items: center;
+  row-gap: 5px;
+  background-color: burlywood;
+  padding-bottom: 10px;
+  width: 100%;
+}
+
+#map-grid #Header-info #Header-contact {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  width: 100%;
+}
+
+#map-grid #map-logo {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+/*# sourceMappingURL=map.css.map */

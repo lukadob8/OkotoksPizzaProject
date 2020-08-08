@@ -1,0 +1,33 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+@import "footer";
+
+#map-grid {
+    display: grid;
+    justify-items: center;
+
+    #Header-info {
+        display: grid;
+        justify-items: center;
+        row-gap: 5px;
+        background-color: burlywood;
+        padding-bottom: 10px;
+        width: 100%;
+
+        #Header-contact {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            justify-items: center;
+            width: 100%;
+        }
+    }
+
+    #map-logo {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+}

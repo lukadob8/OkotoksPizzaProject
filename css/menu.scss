@@ -1,0 +1,43 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+@import "footer";
+
+#menu-grid {
+    display: grid;
+    justify-items: center;
+    row-gap: 20px;
+
+    #Header-info {
+            padding-top: 5px;
+            display: grid;
+            justify-items: center;
+            row-gap: 5px;
+            background-color: burlywood;
+            padding-bottom: 10px;
+            width: 100%;
+    
+            #Header-contact {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                justify-items: center;
+                width: 100%;
+            }
+        }
+    
+        #menu-logo {
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+
+    .Menu {
+        display: grid;
+        justify-items: center;
+        row-gap: 5px;
+    }    
+
+
+    
+}

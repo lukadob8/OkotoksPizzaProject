@@ -3,61 +3,55 @@
     padding: 0;
 }
 
+@import "variables";
+
+@import "header";
+
+@import "footer";
+
 #grid-container {
     display: grid;
     width: 100%;
 
-    #Header {
-        display: grid;
-        width: 100%;
-        min-height: 40vh;
-        justify-items: center;
-
-        #Header-logo {
-            margin-top: 10px;
-        }
-
-        #Header-info {
-            display: grid;
-            width: 100%;
-            min-height: 10vh;
-            background-color: rgb(236, 77, 48);
-            justify-items: right;
-
-            #Header-address {
-                margin-right: 10px;
-            }
-            
-
-            #Header-contact {
-                display: grid;
-                grid-template-columns: 2fr 1fr;
-                column-gap: 15px;
-                justify-items: right;
-                margin-right: 10px;
-            }
-        }
-    }
-
     #Body-content {
         display: grid;
         justify-items: center;
+        row-gap: 5vh;
 
         .Promo {
             position: relative;
             display: inline-block;
             width: 200px;
+            margin-top: 20px;
+
+            #home-image {
+                filter: brightness(70%);
+                width: 100%;
+            }
         }
 
         .Promo .Promo-text {
             position: absolute;
-            z-index: 999;
             margin: 0 auto;
             left: 0;
             right: 0;
-            top: 0%;
+            top: 20%;
             text-align: center;
             width: 60%;
+        }
+
+        #Promotion {
+            color: $text-color;
+        }
+
+        #Home-info {
+            display: grid;
+            justify-items: center;
+            row-gap: 10px;
+            padding: 5px 5px 5px 5px;
+            border: 1px solid;
+            background-color: burlywood;
+            color: $text-color;
         }
     }
 }
