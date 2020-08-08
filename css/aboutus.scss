@@ -1,0 +1,34 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+@import "_footer";
+
+@import "_variables";
+
+#aboutus-grid {
+    display: grid;
+    justify-items: center;
+
+    #Header-info {
+        display: grid;
+        width: 100%;
+        min-height: 10vh;
+        background-color: burlywood;
+        justify-items: center;
+
+        #Header-address {
+            margin-top: 10px;
+            color: $text-color;
+        }
+
+        #Header-contact {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            column-gap: 15px;
+            margin-right: 10px;
+            justify-items: center;
+        }
+    }
+}

@@ -1,0 +1,44 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+#footer {
+  display: -ms-grid;
+  display: grid;
+  justify-items: center;
+  row-gap: 5px;
+  margin-top: 20px;
+}
+
+#aboutus-grid {
+  display: -ms-grid;
+  display: grid;
+  justify-items: center;
+}
+
+#aboutus-grid #Header-info {
+  display: -ms-grid;
+  display: grid;
+  width: 100%;
+  min-height: 10vh;
+  background-color: burlywood;
+  justify-items: center;
+}
+
+#aboutus-grid #Header-info #Header-address {
+  margin-top: 10px;
+  color: white;
+}
+
+#aboutus-grid #Header-info #Header-contact {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  -webkit-column-gap: 15px;
+          column-gap: 15px;
+  margin-right: 10px;
+  justify-items: center;
+}
+/*# sourceMappingURL=aboutus.css.map */

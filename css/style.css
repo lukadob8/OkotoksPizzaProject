@@ -93,7 +93,7 @@
   top: -15vh;
   opacity: 0;
   left: 0;
-  min-height: 53vh;
+  min-height: 40vh;
 }
 
 #Header #Drop-menu #mobile-header-menu a {
@@ -156,8 +156,6 @@
   justify-items: center;
   row-gap: 10px;
   padding: 5px 5px 5px 5px;
-  border: 1px solid;
-  background-color: burlywood;
-  color: white;
+  color: black;
 }
 /*# sourceMappingURL=style.css.map */
