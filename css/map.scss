@@ -16,6 +16,11 @@
         background-color: burlywood;
         padding-bottom: 10px;
         width: 100%;
+        min-height: 10vh;
+
+        #Header-address {
+            margin-top: 5px;
+        }
 
         #Header-contact {
             display: grid;

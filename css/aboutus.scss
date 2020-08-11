@@ -3,13 +3,17 @@
     margin: 0;
 }
 
-@import "_footer";
+@import "footer";
 
 @import "_variables";
 
 #aboutus-grid {
     display: grid;
     justify-items: center;
+
+    #menu-logo {
+        margin-top: 10px;
+    }
 
     #Header-info {
         display: grid;
@@ -30,5 +34,13 @@
             margin-right: 10px;
             justify-items: center;
         }
+    }
+
+    #About {
+        display: grid;
+        justify-items: center;
+        row-gap: 10px;
+        width: 80%;
+        margin-top: 20px;
     }
 }

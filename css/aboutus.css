@@ -17,6 +17,10 @@
   justify-items: center;
 }
 
+#aboutus-grid #menu-logo {
+  margin-top: 10px;
+}
+
 #aboutus-grid #Header-info {
   display: -ms-grid;
   display: grid;
@@ -40,5 +44,14 @@
           column-gap: 15px;
   margin-right: 10px;
   justify-items: center;
+}
+
+#aboutus-grid #About {
+  display: -ms-grid;
+  display: grid;
+  justify-items: center;
+  row-gap: 10px;
+  width: 80%;
+  margin-top: 20px;
 }
 /*# sourceMappingURL=aboutus.css.map */

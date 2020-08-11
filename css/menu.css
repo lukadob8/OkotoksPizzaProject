@@ -27,6 +27,7 @@
   background-color: burlywood;
   padding-bottom: 10px;
   width: 100%;
+  min-height: 10vh;
 }
 
 #menu-grid #Header-info #Header-contact {
@@ -48,5 +49,14 @@
   display: grid;
   justify-items: center;
   row-gap: 5px;
+  margin-top: 30px;
+}
+
+#menu-grid .Menu .titles {
+  display: -ms-grid;
+  display: grid;
+  margin-bottom: 30px;
+  border-bottom: solid;
+  border-top: solid;
 }
 /*# sourceMappingURL=menu.css.map */

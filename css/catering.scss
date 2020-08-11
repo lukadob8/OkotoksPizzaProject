@@ -3,12 +3,13 @@
     margin: 0;
 }
 
-@import "footer";
+@import "_footer";
 
-#menu-grid {
+#Cater-grid {
     display: grid;
     justify-items: center;
     row-gap: 20px;
+    width: 100%;
 
     #Header-info {
             padding-top: 5px;
@@ -28,25 +29,14 @@
             }
         }
     
-        #menu-logo {
+        #Header-logo {
             margin-top: 10px;
             margin-bottom: 10px;
         }
 
-    .Menu {
-        display: grid;
-        justify-items: center;
-        row-gap: 5px;
-        margin-top: 30px;
-
-        .titles {
+        #cater {
             display: grid;
-            margin-bottom: 30px;
-            border-bottom: solid;
-            border-top: solid;
+            justify-items: center;
+            border: solid;
         }
-    }    
-
-
-    
 }

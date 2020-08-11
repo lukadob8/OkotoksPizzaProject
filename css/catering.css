@@ -11,13 +11,16 @@
   margin-top: 20px;
 }
 
-#map-grid {
+#Cater-grid {
   display: -ms-grid;
   display: grid;
   justify-items: center;
+  row-gap: 20px;
+  width: 100%;
 }
 
-#map-grid #Header-info {
+#Cater-grid #Header-info {
+  padding-top: 5px;
   display: -ms-grid;
   display: grid;
   justify-items: center;
@@ -28,11 +31,7 @@
   min-height: 10vh;
 }
 
-#map-grid #Header-info #Header-address {
-  margin-top: 5px;
-}
-
-#map-grid #Header-info #Header-contact {
+#Cater-grid #Header-info #Header-contact {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 1fr 1fr;
@@ -41,8 +40,15 @@
   width: 100%;
 }
 
-#map-grid #map-logo {
+#Cater-grid #Header-logo {
   margin-top: 10px;
   margin-bottom: 10px;
 }
-/*# sourceMappingURL=map.css.map */
+
+#Cater-grid #cater {
+  display: -ms-grid;
+  display: grid;
+  justify-items: center;
+  border: solid;
+}
+/*# sourceMappingURL=catering.css.map */

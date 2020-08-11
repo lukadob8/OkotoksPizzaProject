@@ -9,6 +9,10 @@
 
 @import "footer";
 
+#DTMenu {
+    display: none;
+}
+
 #grid-container {
     display: grid;
     width: 100%;
@@ -21,7 +25,7 @@
         .Promo {
             position: relative;
             display: inline-block;
-            width: 200px;
+            width: 300px;
             margin-top: 20px;
 
             #home-image {
@@ -30,18 +34,25 @@
             }
         }
 
-        .Promo .Promo-text {
+        .Promo-text {
             position: absolute;
             margin: 0 auto;
             left: 0;
             right: 0;
-            top: 20%;
+            top: 30%;
             text-align: center;
             width: 60%;
         }
 
         #Promotion {
             color: $text-color;
+            font-size: large;
+        }
+
+        #home-video {
+            display: grid;
+            justify-items: center;
+            row-gap: 5px;
         }
 
         #Home-info {
@@ -51,5 +62,22 @@
             padding: 5px 5px 5px 5px;
             color: black;
         }
+    }
+}
+
+@media only screen and (min-width:600px){
+    #Drop-menu {
+        display: none;
+    }
+
+    #DTMenu {
+        display: grid;
+        width: 90%;
+        min-height: 10vh;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        justify-items: center;
+        align-items: center;
+        border: solid burlywood;
+        margin-top: 10px;
     }
 }
