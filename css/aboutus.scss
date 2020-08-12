@@ -21,6 +21,8 @@
         min-height: 10vh;
         background-color: burlywood;
         justify-items: center;
+        font-family: 'Raleway', sans-serif;
+        
 
         #Header-address {
             margin-top: 10px;
@@ -29,6 +31,7 @@
 
         #Header-contact {
             display: grid;
+            width: 100%;
             grid-template-columns: 1fr 1fr;
             column-gap: 15px;
             margin-right: 10px;
@@ -42,5 +45,21 @@
         row-gap: 10px;
         width: 80%;
         margin-top: 20px;
+        text-align: center;
+
+        .Photo-About {
+            border: solid burlywood;
+            width: 40vw;
+        }
+
+        p {
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        .title {
+            font-family: 'Raleway', sans-serif;
+            border-bottom: solid;
+            border-top: solid;
+        }
     }
 }

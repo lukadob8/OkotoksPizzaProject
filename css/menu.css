@@ -9,6 +9,7 @@
   justify-items: center;
   row-gap: 5px;
   margin-top: 20px;
+  font-family: 'Raleway', sans-serif;
 }
 
 #menu-grid {
@@ -28,6 +29,7 @@
   padding-bottom: 10px;
   width: 100%;
   min-height: 10vh;
+  font-family: 'Raleway', sans-serif;
 }
 
 #menu-grid #Header-info #Header-contact {
@@ -52,11 +54,16 @@
   margin-top: 30px;
 }
 
+#menu-grid .Menu p {
+  font-family: 'Montserrat', sans-serif;
+}
+
 #menu-grid .Menu .titles {
   display: -ms-grid;
   display: grid;
   margin-bottom: 30px;
   border-bottom: solid;
   border-top: solid;
+  font-family: 'Raleway', sans-serif;
 }
 /*# sourceMappingURL=menu.css.map */

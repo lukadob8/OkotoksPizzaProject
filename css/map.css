@@ -9,12 +9,17 @@
   justify-items: center;
   row-gap: 5px;
   margin-top: 20px;
+  font-family: 'Raleway', sans-serif;
 }
 
 #map-grid {
   display: -ms-grid;
   display: grid;
   justify-items: center;
+}
+
+#map-grid p {
+  font-family: 'Raleway', sans-serif;
 }
 
 #map-grid #Header-info {
@@ -26,6 +31,7 @@
   padding-bottom: 10px;
   width: 100%;
   min-height: 10vh;
+  font-family: 'Raleway', sans-serif;
 }
 
 #map-grid #Header-info #Header-address {

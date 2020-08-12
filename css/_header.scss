@@ -15,22 +15,28 @@
     #Header-info {
         display: grid;
         width: 100%;
-        min-height: 10vh;
+        min-height: 15vh;
         background-color: burlywood;
         justify-items: center;
+        font-family: 'Raleway', sans-serif;
 
         #Header-address {
-            margin-right: 10px;
-            color: $text-color;
+            justify-items: center;
+            color: black;
+            margin-top: 20px;
+            align-items: center;
+            font-family: 'Raleway', sans-serif;
         }
         
 
         #Header-contact {
             display: grid;
+            width: 100%;
             grid-template-columns: 1fr 1fr;
             column-gap: 15px;
-            justify-items: right;
+            justify-items: center;
             margin-right: 10px;
+            
         }
     }
 

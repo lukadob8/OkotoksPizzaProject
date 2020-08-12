@@ -23,24 +23,31 @@
   display: -ms-grid;
   display: grid;
   width: 100%;
-  min-height: 10vh;
+  min-height: 15vh;
   background-color: burlywood;
   justify-items: center;
+  font-family: 'Raleway', sans-serif;
 }
 
 #Header #Header-info #Header-address {
-  margin-right: 10px;
-  color: white;
+  justify-items: center;
+  color: black;
+  margin-top: 20px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: 'Raleway', sans-serif;
 }
 
 #Header #Header-info #Header-contact {
   display: -ms-grid;
   display: grid;
+  width: 100%;
   -ms-grid-columns: 1fr 1fr;
       grid-template-columns: 1fr 1fr;
   -webkit-column-gap: 15px;
           column-gap: 15px;
-  justify-items: right;
+  justify-items: center;
   margin-right: 10px;
 }
 
@@ -108,6 +115,7 @@
   justify-items: center;
   row-gap: 5px;
   margin-top: 20px;
+  font-family: 'Raleway', sans-serif;
 }
 
 #DTMenu {
@@ -125,34 +133,42 @@
   display: grid;
   justify-items: center;
   row-gap: 5vh;
+  width: 100%;
 }
 
 #grid-container #Body-content .Promo {
   position: relative;
-  display: inline-block;
-  width: 300px;
-  margin-top: 20px;
+  display: -ms-grid;
+  display: grid;
+  width: 60vw;
+  margin-top: 30px;
 }
 
 #grid-container #Body-content .Promo #home-image {
-  -webkit-filter: brightness(70%);
-          filter: brightness(70%);
+  -webkit-filter: brightness(40%);
+          filter: brightness(40%);
   width: 100%;
 }
 
-#grid-container #Body-content .Promo-text {
+#grid-container #Body-content .Promo .Promo-text {
   position: absolute;
   margin: 0 auto;
   left: 0;
   right: 0;
-  top: 30%;
+  top: 20%;
   text-align: center;
-  width: 60%;
+  width: 100%;
+  height: 100%;
+  font-family: 'Raleway', sans-serif;
 }
 
-#grid-container #Body-content #Promotion {
+#grid-container #Body-content .Promo .Promo-text #Promotion {
   color: white;
-  font-size: large;
+  font-size: 3vh;
+  justify-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 #grid-container #Body-content #home-video {
@@ -160,6 +176,7 @@
   display: grid;
   justify-items: center;
   row-gap: 5px;
+  font-family: 'Raleway', sans-serif;
 }
 
 #grid-container #Body-content #Home-info {
@@ -169,6 +186,8 @@
   row-gap: 10px;
   padding: 5px 5px 5px 5px;
   color: black;
+  border: solid burlywood;
+  font-family: 'Raleway', sans-serif;
 }
 
 @media only screen and (min-width: 600px) {

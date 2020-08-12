@@ -9,6 +9,7 @@
   justify-items: center;
   row-gap: 5px;
   margin-top: 20px;
+  font-family: 'Raleway', sans-serif;
 }
 
 #Cater-grid {
@@ -29,6 +30,7 @@
   padding-bottom: 10px;
   width: 100%;
   min-height: 10vh;
+  font-family: 'Raleway', sans-serif;
 }
 
 #Cater-grid #Header-info #Header-contact {
@@ -48,7 +50,16 @@
 #Cater-grid #cater {
   display: -ms-grid;
   display: grid;
+  width: 90%;
   justify-items: center;
   border: solid;
+}
+
+#Cater-grid #cater h2 {
+  font-family: 'Raleway', sans-serif;
+}
+
+#Cater-grid #cater p {
+  font-family: 'Montserrat', sans-serif;
 }
 /*# sourceMappingURL=catering.css.map */

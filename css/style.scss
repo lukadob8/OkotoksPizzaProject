@@ -21,38 +21,44 @@
         display: grid;
         justify-items: center;
         row-gap: 5vh;
+        width: 100%;
 
         .Promo {
             position: relative;
-            display: inline-block;
-            width: 300px;
-            margin-top: 20px;
+            display: grid;
+            width: 60vw;
+            margin-top: 30px;
 
             #home-image {
-                filter: brightness(70%);
+                filter: brightness(40%);
                 width: 100%;
             }
-        }
 
-        .Promo-text {
-            position: absolute;
-            margin: 0 auto;
-            left: 0;
-            right: 0;
-            top: 30%;
-            text-align: center;
-            width: 60%;
-        }
+            .Promo-text {
+                position: absolute;
+                margin: 0 auto;
+                left: 0;
+                right: 0;
+                top: 20%;
+                text-align: center;
+                width: 100%;
+                height: 100%;
+                font-family: 'Raleway', sans-serif;
 
-        #Promotion {
-            color: $text-color;
-            font-size: large;
+                #Promotion {
+                    color: $text-color;
+                    font-size: 3vh;
+                    justify-items: center;
+                    align-items: center;
+                }
+            }
         }
 
         #home-video {
             display: grid;
             justify-items: center;
             row-gap: 5px;
+            font-family: 'Raleway', sans-serif;
         }
 
         #Home-info {
@@ -61,6 +67,8 @@
             row-gap: 10px;
             padding: 5px 5px 5px 5px;
             color: black;
+            border: solid burlywood;
+            font-family: 'Raleway', sans-serif;
         }
     }
 }

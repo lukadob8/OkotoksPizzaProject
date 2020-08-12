@@ -9,6 +9,10 @@
     display: grid;
     justify-items: center;
 
+    p {
+        font-family: 'Raleway', sans-serif;
+    }
+
     #Header-info {
         display: grid;
         justify-items: center;
@@ -17,6 +21,7 @@
         padding-bottom: 10px;
         width: 100%;
         min-height: 10vh;
+        font-family: 'Raleway', sans-serif;
 
         #Header-address {
             margin-top: 5px;
