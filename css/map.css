@@ -22,6 +22,11 @@
   font-family: 'Raleway', sans-serif;
 }
 
+#map-grid .hours {
+  border-top: solid;
+  border-bottom: solid;
+}
+
 #map-grid #Header-info {
   display: -ms-grid;
   display: grid;

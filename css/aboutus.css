@@ -73,4 +73,13 @@
   border-bottom: solid;
   border-top: solid;
 }
+
+@media only screen and (min-width: 600px) {
+  html {
+    font-size: 2em;
+  }
+  #aboutus-grid #Header-info {
+    min-height: 20vh;
+  }
+}
 /*# sourceMappingURL=aboutus.css.map */

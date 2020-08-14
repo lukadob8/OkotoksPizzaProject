@@ -122,6 +122,14 @@
   display: none;
 }
 
+#Location {
+  display: none;
+}
+
+#promo-title {
+  display: none;
+}
+
 #grid-container {
   display: -ms-grid;
   display: grid;
@@ -136,47 +144,59 @@
   width: 100%;
 }
 
-#grid-container #Body-content .Promo {
+#grid-container #Body-content #Desk-grid {
+  display: -ms-grid;
+  display: grid;
+  justify-items: center;
+  row-gap: 5vh;
+  width: 100%;
+}
+
+#grid-container #Body-content #Desk-grid .Promo {
   position: relative;
   display: -ms-grid;
   display: grid;
-  width: 60vw;
+  width: 60%;
   margin-top: 30px;
-}
-
-#grid-container #Body-content .Promo #home-image {
-  -webkit-filter: brightness(40%);
-          filter: brightness(40%);
-  width: 100%;
-}
-
-#grid-container #Body-content .Promo .Promo-text {
-  position: absolute;
-  margin: 0 auto;
-  left: 0;
-  right: 0;
-  top: 20%;
-  text-align: center;
-  width: 100%;
-  height: 100%;
-  font-family: 'Raleway', sans-serif;
-}
-
-#grid-container #Body-content .Promo .Promo-text #Promotion {
-  color: white;
-  font-size: 3vh;
   justify-items: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
 }
 
+#grid-container #Body-content #Desk-grid .Promo #home-image {
+  -webkit-filter: brightness(40%);
+          filter: brightness(40%);
+  width: 100%;
+}
+
+#grid-container #Body-content #Desk-grid .Promo #Promotion {
+  color: white;
+  justify-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: absolute;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+}
+
 #grid-container #Body-content #home-video {
   display: -ms-grid;
   display: grid;
   justify-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   row-gap: 5px;
   font-family: 'Raleway', sans-serif;
+  width: 90%;
+  text-align: center;
+}
+
+#grid-container #Body-content #home-video h2 {
+  border-bottom: solid;
+  margin-bottom: 10px;
 }
 
 #grid-container #Body-content #Home-info {
@@ -191,6 +211,9 @@
 }
 
 @media only screen and (min-width: 600px) {
+  html {
+    font-size: 1.5em;
+  }
   #Drop-menu {
     display: none;
   }
@@ -207,6 +230,53 @@
             align-items: center;
     border: solid burlywood;
     margin-top: 10px;
+    font-family: 'Raleway', sans-serif;
+  }
+  #video {
+    width: 80%;
+    min-height: 30vh;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  #grid-container #Body-content {
+    display: -ms-grid;
+    display: grid;
+    row-gap: 50px;
+  }
+  #grid-container #Body-content #Desk-grid {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+  }
+  #grid-container #Body-content #Desk-grid .Promo {
+    margin-top: 0;
+    margin-bottom: 40px;
+  }
+  #grid-container #Body-content #Desk-grid .Promo #Promotion {
+    margin-top: 60px;
+  }
+  #grid-container #Body-content #Desk-grid .Promo h2 {
+    display: -ms-grid;
+    display: grid;
+    font-family: 'Raleway', sans-serif;
+    border-bottom: solid;
+    margin-top: 0;
+  }
+  #grid-container #Body-content #Desk-grid #Location {
+    display: -ms-grid;
+    display: grid;
+    justify-items: center;
+  }
+  #grid-container #Body-content #Desk-grid #Location h2 {
+    font-family: 'Raleway', sans-serif;
+    border-bottom: solid;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  #grid-container #Body-content #home-video {
+    width: 60%;
   }
 }
 /*# sourceMappingURL=style.css.map */
