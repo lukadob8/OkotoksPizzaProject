@@ -12,6 +12,10 @@
   font-family: 'Raleway', sans-serif;
 }
 
+a {
+  color: black;
+}
+
 #phone-one {
   display: none;
 }
