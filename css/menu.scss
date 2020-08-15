@@ -83,14 +83,36 @@ img {
             text-align: center;
             row-gap: 50px;
             grid-template-columns: 1fr 1fr;
+            column-gap: 10%;
+            width: 100%;
+
 
             .menu-images {
                 display: grid;
-                width: 300px;
+                justify-self: center;
+                align-self: center;
+                min-height: 100px;
+                width: 250px;
+                align-items: baseline;
+
+                #entree-images {
+                    display: grid;
+                    
+                }
+                
+                .images {
+                    border: solid burlywood;
+                }
+
+                p {
+                    font-family: 'Raleway', sans-serif;
+                }
             }
 
             .Menu {
                 display: grid;
+                width: 100%;
+                row-gap: 15px;
             }
 
             #Dessert {

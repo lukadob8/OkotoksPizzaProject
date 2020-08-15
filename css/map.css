@@ -3,6 +3,10 @@
   margin: 0;
 }
 
+img {
+  width: 100%;
+}
+
 #footer {
   display: -ms-grid;
   display: grid;
@@ -12,10 +16,25 @@
   font-family: 'Raleway', sans-serif;
 }
 
+#map-image {
+  display: none;
+}
+
 #map-grid {
   display: -ms-grid;
   display: grid;
   justify-items: center;
+}
+
+#map-grid #Location {
+  display: -ms-grid;
+  display: grid;
+  justify-items: center;
+}
+
+#map-grid #Location p {
+  border-top: solid 1.5px;
+  border-bottom: solid 1.5px;
 }
 
 #map-grid p {
@@ -23,8 +42,8 @@
 }
 
 #map-grid .hours {
-  border-top: solid;
-  border-bottom: solid;
+  border-top: solid 1.5px;
+  border-bottom: solid 1.5px;
 }
 
 #map-grid #Header-info {
@@ -55,5 +74,20 @@
 #map-grid #map-logo {
   margin-top: 10px;
   margin-bottom: 10px;
+}
+
+@media only screen and (min-width: 1000px) {
+  #map-grid #Location {
+    width: 50%;
+  }
+  #map-grid #map-image-title {
+    border-bottom: solid 1.5px;
+    border-top: solid 1.5px;
+  }
+  #map-grid #map-image {
+    display: -ms-grid;
+    display: grid;
+    width: 50%;
+  }
 }
 /*# sourceMappingURL=map.css.map */

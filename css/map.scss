@@ -3,19 +3,37 @@
     margin: 0;
 }
 
+img {
+    width: 100%;
+}
+
 @import "footer";
+
+#map-image {
+    display: none;
+}
 
 #map-grid {
     display: grid;
     justify-items: center;
+
+    #Location {
+        display: grid;
+        justify-items: center;
+
+        p {
+            border-top: solid 1.5px;
+            border-bottom: solid 1.5px;
+        }
+    }
 
     p {
         font-family: 'Raleway', sans-serif;
     }
 
     .hours {
-        border-top: solid;
-        border-bottom: solid;
+        border-top: solid 1.5px;
+        border-bottom: solid 1.5px;
     }
 
     #Header-info {
@@ -45,4 +63,24 @@
         margin-bottom: 10px;
     }
 
+}
+
+
+@media only screen and (min-width:1000px) {
+    #map-grid {
+
+        #Location {
+            width: 50%;
+        }
+
+        #map-image-title {
+            border-bottom: solid 1.5px;
+            border-top: solid 1.5px;
+        }
+
+        #map-image {
+            display: grid;
+            width: 50%;
+        }
+    }
 }

@@ -3,6 +3,14 @@
     margin: 0;
 }
 
+img {
+    width: 100%;
+}
+
+#article {
+    display: none;
+}
+
 @import "footer";
 
 @import "_variables";
@@ -67,13 +75,32 @@
 
 @media only screen and (min-width:600px) {
     html {
-        font-size: 2em;
+        font-size: 1.5em;
     }
 
     #aboutus-grid {
         
         #Header-info {
             min-height: 20vh;
+        }
+    }
+}
+
+
+@media only screen and (min-width:1000px) {
+    #aboutus-grid {
+        display: grid;
+        
+
+        #article {
+            display: grid;
+            margin-top: 50px;
+
+            #article-text {
+                font-family: 'Raleway', sans-serif;
+                margin-bottom: 10px;
+                border-bottom: solid;
+            }
         }
     }
 }
