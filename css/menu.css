@@ -66,12 +66,25 @@ a {
   display: -ms-grid;
   display: grid;
   justify-items: center;
-  row-gap: 5px;
+  row-gap: 7px;
   margin-top: 30px;
 }
 
 #menu-grid #Grid-M .Menu p {
   font-family: 'Montserrat', sans-serif;
+  display: -ms-grid;
+  display: grid;
+  text-align: center;
+}
+
+#menu-grid #Grid-M .Menu .price {
+  margin-bottom: 30px;
+}
+
+#menu-grid #Grid-M .Menu .description {
+  font-size: 0.8rem;
+  margin-top: 10px;
+  margin-bottom: 5px;
 }
 
 #menu-grid #Grid-M .Menu .titles {
@@ -116,7 +129,7 @@ a {
     -ms-grid-row-align: center;
         align-self: center;
     min-height: 100px;
-    width: 250px;
+    width: 350px;
     -webkit-box-align: baseline;
         -ms-flex-align: baseline;
             align-items: baseline;
@@ -135,7 +148,7 @@ a {
     display: -ms-grid;
     display: grid;
     width: 100%;
-    row-gap: 15px;
+    row-gap: 100px;
   }
   #menu-grid #Grid-M #Dessert {
     display: -ms-grid;

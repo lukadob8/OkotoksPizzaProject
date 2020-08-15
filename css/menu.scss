@@ -55,11 +55,24 @@ a {
         .Menu {
             display: grid;
             justify-items: center;
-            row-gap: 5px;
+            row-gap: 7px;
             margin-top: 30px;
     
             p {
                 font-family: 'Montserrat', sans-serif;
+                display: grid;
+                text-align: center;
+                
+            }
+
+            .price {
+                margin-bottom: 30px;
+            }
+
+            .description {
+                font-size: 0.8rem;
+                margin-top: 10px;
+                margin-bottom: 5px;
             }
     
             .titles {
@@ -108,7 +121,7 @@ a {
                 justify-self: center;
                 align-self: center;
                 min-height: 100px;
-                width: 250px;
+                width: 350px;
                 align-items: baseline;
 
                 #entree-images {
@@ -128,7 +141,7 @@ a {
             .Menu {
                 display: grid;
                 width: 100%;
-                row-gap: 15px;
+                row-gap: 100px;
             }
 
             #Dessert {
