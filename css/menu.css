@@ -148,7 +148,7 @@ a {
     display: -ms-grid;
     display: grid;
     width: 100%;
-    row-gap: 100px;
+    row-gap: 15px;
   }
   #menu-grid #Grid-M #Dessert {
     display: -ms-grid;
