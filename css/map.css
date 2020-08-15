@@ -16,6 +16,10 @@ img {
   font-family: 'Raleway', sans-serif;
 }
 
+#phone-one {
+  display: none;
+}
+
 #map-image {
   display: none;
 }
@@ -74,6 +78,19 @@ img {
 #map-grid #map-logo {
   margin-top: 10px;
   margin-bottom: 10px;
+}
+
+@media only screen and (min-width: 600px) {
+  html {
+    font-size: 1.5em;
+  }
+  #phone {
+    display: none;
+  }
+  #phone-one {
+    display: -ms-grid;
+    display: grid;
+  }
 }
 
 @media only screen and (min-width: 1000px) {

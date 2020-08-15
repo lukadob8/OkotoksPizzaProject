@@ -20,6 +20,10 @@ img {
   font-family: 'Raleway', sans-serif;
 }
 
+#phone-one {
+  display: none;
+}
+
 #aboutus-grid {
   display: -ms-grid;
   display: grid;
@@ -85,6 +89,13 @@ img {
 @media only screen and (min-width: 600px) {
   html {
     font-size: 1.5em;
+  }
+  #phone {
+    display: none;
+  }
+  #phone-one {
+    display: -ms-grid;
+    display: grid;
   }
   #aboutus-grid #Header-info {
     min-height: 20vh;

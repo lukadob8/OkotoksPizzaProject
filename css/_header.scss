@@ -36,6 +36,10 @@
             column-gap: 15px;
             justify-items: center;
             margin-right: 10px;
+
+            #phone-one {
+                display: none;
+            }
             
         }
     }
@@ -89,6 +93,26 @@
                 color: white;
                 text-decoration: none;
                 font-weight: bold;
+            }
+        }
+    }
+}
+
+
+@media only screen and (min-width:600px) {
+    #Header {
+
+        #Header-info {
+            
+            #Header-contact {
+                
+                #phone{
+                    display: none;
+                }
+
+                #phone-one {
+                    display: grid;
+                }
             }
         }
     }

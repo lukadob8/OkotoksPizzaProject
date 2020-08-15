@@ -9,6 +9,10 @@ img {
 
 @import "footer";
 
+#phone-one {
+    display: none;
+}
+
 #map-image {
     display: none;
 }
@@ -63,6 +67,21 @@ img {
         margin-bottom: 10px;
     }
 
+}
+
+
+@media only screen and (min-width:600px) {
+    html {
+        font-size: 1.5em;
+    }
+
+    #phone {
+        display: none;
+    }
+
+    #phone-one {
+        display: grid;
+    }
 }
 
 

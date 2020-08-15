@@ -12,6 +12,10 @@
   font-family: 'Raleway', sans-serif;
 }
 
+#phone-one {
+  display: none;
+}
+
 #Cater-grid {
   display: -ms-grid;
   display: grid;
@@ -61,5 +65,21 @@
 
 #Cater-grid #cater p {
   font-family: 'Montserrat', sans-serif;
+}
+
+@media only screen and (min-width: 600px) {
+  #phone {
+    display: none;
+  }
+  #phone-one {
+    display: -ms-grid;
+    display: grid;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  #cater-grid #cater {
+    width: 70%;
+  }
 }
 /*# sourceMappingURL=catering.css.map */

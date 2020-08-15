@@ -15,6 +15,10 @@ img {
 
 @import "_variables";
 
+#phone-one {
+    display: none;
+}
+
 #aboutus-grid {
     display: grid;
     justify-items: center;
@@ -76,6 +80,14 @@ img {
 @media only screen and (min-width:600px) {
     html {
         font-size: 1.5em;
+    }
+
+    #phone {
+        display: none;
+    }
+
+    #phone-one {
+        display: grid;
     }
 
     #aboutus-grid {

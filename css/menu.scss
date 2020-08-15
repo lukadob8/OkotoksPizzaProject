@@ -9,6 +9,10 @@ img {
 
 @import "footer";
 
+#phone-one {
+    display: none;
+}
+
 .menu-images {
     display: none;
 }
@@ -71,6 +75,14 @@ img {
 @media only screen and (min-width:600px) {
     html {
         font-size: 1.5em;
+    }
+
+    #phone {
+        display: none;
+    }
+
+    #phone-one {
+        display: grid;
     }
 }
 

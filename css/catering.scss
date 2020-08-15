@@ -5,6 +5,10 @@
 
 @import "_footer";
 
+#phone-one {
+    display: none;
+}
+
 #Cater-grid {
     display: grid;
     justify-items: center;
@@ -50,4 +54,26 @@
                 font-family: 'Montserrat', sans-serif;
             }
         }
+}
+
+
+@media only screen and (min-width:600px) {
+    #phone {
+        display: none;
+    }
+
+    #phone-one {
+        display: grid;
+    }
+
+}
+
+
+@media only screen and (min-width:1000px) {
+    #cater-grid {
+
+        #cater {
+            width: 70%;
+        }
+    }
 }

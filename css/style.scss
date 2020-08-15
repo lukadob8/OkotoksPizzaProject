@@ -9,6 +9,14 @@
 
 @import "footer";
 
+#phone-three {
+    display: none;
+}
+
+a {
+    color: black;
+}
+
 #DTMenu {
     display: none;
 }
@@ -117,6 +125,17 @@
     #video {
         width: 80%;
         min-height: 30vh;
+    }
+
+    #Home-info {
+
+        #phone-two {
+            display: none;
+        }
+
+        #phone-three {
+            display: grid;
+        }
     }
 }
 

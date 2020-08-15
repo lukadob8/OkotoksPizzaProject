@@ -51,6 +51,10 @@
   margin-right: 10px;
 }
 
+#Header #Header-info #Header-contact #phone-one {
+  display: none;
+}
+
 #Header #Drop-menu #mobile-menu-checkbox {
   width: 50px;
   height: 50px;
@@ -109,6 +113,16 @@
   font-weight: bold;
 }
 
+@media only screen and (min-width: 600px) {
+  #Header #Header-info #Header-contact #phone {
+    display: none;
+  }
+  #Header #Header-info #Header-contact #phone-one {
+    display: -ms-grid;
+    display: grid;
+  }
+}
+
 #footer {
   display: -ms-grid;
   display: grid;
@@ -116,6 +130,14 @@
   row-gap: 5px;
   margin-top: 20px;
   font-family: 'Raleway', sans-serif;
+}
+
+#phone-three {
+  display: none;
+}
+
+a {
+  color: black;
 }
 
 #DTMenu {
@@ -235,6 +257,13 @@
   #video {
     width: 80%;
     min-height: 30vh;
+  }
+  #Home-info #phone-two {
+    display: none;
+  }
+  #Home-info #phone-three {
+    display: -ms-grid;
+    display: grid;
   }
 }
 
