@@ -61,14 +61,22 @@ a {
   width: 90%;
   justify-items: center;
   border: solid;
+  font-family: 'Raleway', sans-serif;
+}
+
+#Cater-grid #cater input {
+  background-color: lightgrey;
+  font-family: 'Montserrat', sans-serif;
 }
 
 #Cater-grid #cater h2 {
   font-family: 'Raleway', sans-serif;
+  margin-bottom: 20px;
 }
 
 #Cater-grid #cater p {
   font-family: 'Montserrat', sans-serif;
+  text-align: center;
 }
 
 @media only screen and (min-width: 600px) {

@@ -15,7 +15,7 @@
 <body id="Cater-grid">
         <div id="Header-info">
             <div id="Header-address">
-                <p>5555 5 St NW Okotoks, AB (<a href="https://www.google.ca/maps/place/Okotoks,+AB/@50.7285408,-114.0013393,13z/data=!3m1!4b1!4m5!3m4!1s0x53719832dbd76fe5:0x583906fa0929b961!8m2!3d50.7254764!4d-113.974928">map</a>)</p>
+                <p>5555 5 St NW Okotoks, AB (<a target="_blank" href="https://www.google.ca/maps/place/Okotoks,+AB/@50.7285408,-114.0013393,13z/data=!3m1!4b1!4m5!3m4!1s0x53719832dbd76fe5:0x583906fa0929b961!8m2!3d50.7254764!4d-113.974928">map</a>)</p>
             </div>
             <div id="Header-contact">
             <a href="mailto:info@OkoPizza.ca">info@OkoPizza.ca</a>
@@ -29,13 +29,27 @@
 
         <div id="cater">
             <h2>Catering Form</h2>
-            <p>Name</p>
-            <p>Phone Number</p>
-            <p>Email Address</p>
-        <br><br>
-            <p>Date of Event</p>
-            <p>Event Location</p>
-            <p>Approximate Number of Guests</p>
+
+            <form action="/pages/catering.html">
+            <label for="fname">First Name :</label>
+            <input type="text" name="fname" id="fname"> <br><br>
+            <label for="lname">Last Name :</label>
+            <input type="text" name="lname" id="lname"> <br><br>
+            <label for="phone">Phone Number :</label>
+            <input type="text" name="phone" id="phone"> <br><br>
+            <label for="email">Email Address :</label>
+            <input type="text" name="email" id="email"> <br><br>
+            <label for="date">Date of Event :</label>
+            <input type="text" name="date" id="date"> <br><br>
+            <label for="location">Event Location :</label>
+            <input type="text" name="location" id="location"> <br><br>
+            <label for="guests">Approximate number of Guests :</label>
+            <input type="text" name="guests" id="guests"> <br><br>
+            <input type="submit" value="Submit">
+            </form>
+
+
+        
         <br>
             <p>We will be in touch soon in order to confirm all the details for your event. </p>
         </div>

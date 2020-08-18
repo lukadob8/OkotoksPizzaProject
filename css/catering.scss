@@ -48,14 +48,22 @@ a {
             width: 90%;
             justify-items: center;
             border: solid;
+            font-family: 'Raleway', sans-serif;
+
+            input {
+                background-color: lightgrey;
+                font-family: 'Montserrat', sans-serif;
+            }
             
 
             h2 {
                 font-family: 'Raleway', sans-serif;
+                margin-bottom: 20px;
             }
 
             p {
                 font-family: 'Montserrat', sans-serif;
+                text-align: center;
             }
         }
 }
